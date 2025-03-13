@@ -84,10 +84,6 @@ class Endereco {
     }
 
     get getNumero(){
-        return this.rua
-    }
-
-    get getNumero(){
         return this.numero
     }
 
@@ -147,4 +143,4 @@ class Empresa{
 
 }
 
-exports(Cliente , Telefone , Endereco , Empresa)
+module.exports = {Cliente , Telefone , Endereco , Empresa}
