@@ -143,4 +143,5 @@ class Empresa{
 
 }
 
-module.exports = {Cliente , Telefone , Endereco , Empresa}
+export { Cliente, Telefone, Endereco, Empresa };
+
